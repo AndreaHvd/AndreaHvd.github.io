@@ -1,0 +1,85 @@
+.pokedex {
+    background-image: url(../img/pokedex.PNG);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 5vh;
+    filter: blur(2px);
+    border: #1E1B28 solid 5px;
+}
+
+.pokedex:hover {
+    filter: none;
+    border: white solid 5px;
+}
+
+.pub {
+    background-image: url(../img/chocoballz.PNG);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 5vh;
+    filter: blur(2px);
+    border: #1E1B28 solid 5px;
+}
+
+.pub:hover {
+    filter: none;
+    border: white solid 5px;
+}
+
+.creanum {
+    background-image: url(../img/creanum.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 5vh;
+    filter: blur(2px);
+    border: #1E1B28 solid 5px;
+}
+
+.creanum:hover {
+    filter: none;
+    border: white solid 5px;
+}
+
+.travaux {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-pkm{
+    margin-left: 3%;
+    margin-right: 3%;
+    width: auto;
+    height: 300px;
+    z-index: 1;
+    position: relative;
+    border-radius: 5%;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    font-family: Jost, sans-serif;
+    font-size: 4vh;
+    font-weight: 200;
+}
+
+.img-logo {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: auto;
+    height: 500px;
+    z-index: 1;
+    position: relative;
+    border-radius: 5%;
+}
