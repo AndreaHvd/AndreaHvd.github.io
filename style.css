@@ -1,0 +1,119 @@
+body{
+    background-color: #1E1B28;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Inter', sans-serif;
+}
+
+.separate{
+    background-color: white;
+    color: white;
+    font-size: 2px;
+}
+
+.taille-photo{
+    width: 400px;
+}
+
+h1{
+    font-size: 3em;
+}
+
+.border-r{
+    border-radius: 50px;
+}
+
+.maj{
+    text-transform: uppercase;
+}
+
+.lien{
+    color: white;
+}
+
+.lien:hover{
+    color: rgb(139, 139, 139);
+}
+
+footer{
+    color: #1E1B28;
+    background-color: white;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    color: gray;
+}
+
+.box a{
+    text-decoration: none;
+    color: white;
+}
+
+.box:hover{
+    background-color: white;
+}
+
+.box:hover a{
+    color: #1E1B28;
+}
+
+.card{
+    color: white;
+    background-color: #1E1B28;
+}
+
+.card-text{
+    font-size: 0.7em;
+}
+
+.btn-primary{
+    background-color: #1E1B28;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #5d5b61;
+}
+
+.italic{
+    font-style: italic;
+    font-size: medium;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.video{
+    height: auto;
+    width: 60%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.card:hover{
+    color: #1E1B28;
+    background-color: white;
+}
+
+.btn{
+    color: #1E1B28;
+    background-color: white;
+}
+
+.card:hover .btn{
+    color: white;
+    background-color: #1E1B28;
+}
+
+.accordion-collapse{
+    background-color: #1E1B28;
+    color: white;
+}

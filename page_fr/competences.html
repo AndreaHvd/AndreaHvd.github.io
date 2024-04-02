@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio Andréa</title>
+        <!-- Lien vers le bootstrap et mon css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <!-- Menu -->
+        <nav class="m-3 navbar bg-menu navbar-dark navbar-expand-xl">
+            <div class="container-fluid">
+                <div class="col-4 d-flex flex-row align-items-center">
+                    <a class="navbar-brand" href="../index.html">Portfolio Andréa HAVARD</a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle nav-link" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">
+                               Langue
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                                <li><a class="dropdown-item" href="../page_fr/competences.html">FR</a></li>
+                                <li><a class="dropdown-item" href="../page_en/skills.html">EN</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler collapsed" type="button"  data-bs-toggle="collapse" data-bs-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="col-8 justify-content-end navbar-collapse collapse" id="navbar1">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="competences.html">Compétences & Projets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="experiences.html">Expériences professionnelles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projetprofessionnel.html">Projet professionnel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="liensutiles.html">Liens utiles</a>
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </nav>
+
+        <div class="separate mb-5"><p>_</p></div>
+
+        <section class="container-fluid d-flex flex-column">
+            <h2 class="mb-5 text-center">Mes compétences et mes projets</h2>
+            <div class="mt-5 container-fluid d-flex flex-row flex-wrap">
+                <div class="container-fluid d-flex flex-column col-12 col-xxl-7">
+                    <!-- Compétences et projets principaux -->
+                    <h3 class="mb-5 text-center underline">Mes projets</h3>
+                    <article class="p-5">
+                        <div>
+                            <!-- Programmation -->
+                            <h2 class="">Programmation</h2>
+                            <ul class="list-unstyled d-flex flex-wrap">
+                                <li class="border rounded p-3 m-2">HTML/CSS</li>
+                                <li class="border rounded p-3 m-2">PHP</li>
+                                <li class="border rounded p-3 m-2">JavaScript</li>
+                                <li class="border rounded p-3 m-2">Python</li>
+                                <li class="border rounded p-3 m-2">Bash</li>
+                            </ul>
+                        </div>
+                        <!-- Mise en forme des projets sous forme de "Card" -->
+                        <!-- Projet(s) lié(s) -->
+                        <div class="d-flex flex-row flex-wrap">
+                            <div class="card border m-2 p-2" style="width: 18rem;">
+                                <img src="../media/portfolio.PNG" class="card-img-top rounded" alt="portfolio">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mon Portfolio</h5>
+                                    <p class="card-text m-0">C'est mon site web de portfolio. Il me permet de vous présentez mes projets et mes compétences.</p>
+                                    <p class="mb-1 italic">HTML/CSS</p>
+                                    <a target="_blank" href="../index.html" class="btn btn-primary">Voir plus</a>
+                                </div>
+                            </div>
+                            <div class="card border p-2 m-2" style="width: 18rem;">
+                                <img src="../media/guidexpo.PNG" class="card-img-top rounded" alt="guidexpo">
+                                <div class="card-body">
+                                <h5 class="card-title">GuidExpo</h5>
+                                <p class="card-text m-0">Ce site à été réalisé dans le but d'avoir un audio guide durant une exposition</p>
+                                <p class="mb-1 italic">HTML/CSS, JavaScript, PHP</p>
+                                <a target="_blank" href="https://github.com/AndreaHvd/GuidExpo" class="btn btn-primary">Voir plus</a>
+                                </div>
+                            </div>
+                            <div class="card border p-2 m-2" style="width: 18rem;">
+                                <img src="../media/traitementdedonnee.PNG" class="card-img-top rounded" alt="traitementdedonnee">
+                                <div class="card-body">
+                                <h5 class="card-title">Traitement de données</h5>
+                                <p class="card-text m-0">Dans ce projet je traite des données pour en faire des graphiques</p>
+                                <p class="mb-1 italic">Python, Bash</p>
+                                <a target="_blank" href="../media/traitement_de_donnee.pdf" class="btn btn-primary">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <!-- Réseaux Informatiques -->
+                            <h2 class="mt-5">Réseaux Informatiques</h2>
+                            <ul class="list-unstyled d-flex flex-wrap">
+                                <li class="border rounded p-3 m-2">IPV4/IPV6</li>
+                                <li class="border rounded p-3 m-2">Wifi</li>
+                                <li class="border rounded p-3 m-2">Active Directory</li>
+                                <li class="border rounded p-3 m-2">Routage Cisco</li>
+                                <li class="border rounded p-3 m-2">VLAN</li>
+                            </ul>
+                        </div>
+                        <!-- Projet(s) lié(s) -->
+                        <div class="d-flex flex-row flex-wrap">
+                            <div class="card border m-2 p-2" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Projet Réseau</h5>
+                                    <p class="card-text">Conception du réseau informatique d’un hôtel (analyse des besoin du client, présenter sa solution, proposer la planification du chantier et un devis)</p>
+                                    <a target="_blank" href="#" class="btn btn-primary">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <!-- Base de données -->
+                            <h2 class="mt-5">Base de données</h2>
+                            <ul class="list-unstyled d-flex flex-wrap">
+                                <li class="border rounded p-3 m-2">MySQL</li>
+                                <li class="border rounded p-3 m-2">MariaDB</li>
+                            </ul>
+                        </div>
+                        <!-- Projet(s) lié(s) -->
+                        <div class="d-flex flex-row flex-wrap">
+                            <div class="card border m-2 p-2" style="width: 18rem;">
+                                <img src="../media/confiz.PNG" class="card-img-top rounded" alt="confiz">
+                                <div class="card-body">
+                                    <h5 class="card-title">Confiz</h5>
+                                    <p class="card-text m-0">Gestion du stock d’une fausse boutique en ligne</p>
+                                    <p class="mb-1 italic">HTML/CSS, PHP, MySQL</p>
+                                    <a target="_blank" href="https://github.com/AndreaHvd/Confiz" class="btn btn-primary">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <!-- Gestion de projet -->
+                            <h2 class="mt-5">Gestion de projet</h2>
+                            <ul class="list-unstyled d-flex flex-wrap">
+                                <li class="border rounded p-3 m-2">Planification (Gantt, Trello)</li>
+                                <li class="border rounded p-3 m-2">Reporting (Mail, Réunion)</li>
+                                <li class="border rounded p-3 m-2">Gestion des risques</li>
+                            </ul>
+                        </div>
+                        <!-- Projet(s) lié(s) -->
+                        <div class="d-flex flex-row flex-wrap">
+                            <div class="card border m-2 p-2" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Serious Game</h5>
+                                    <p class="card-text">Faire fonctionner une entreprise fictive dans un milieu concurrentiel</p>
+                                    <a target="_blank" href="../media/serious_game.pdf" class="btn btn-primary">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <!-- Audiovisuel -->
+                            <h2 class="mt-5">Audiovisuel</h2>
+                            <ul class="list-unstyled d-flex flex-wrap">
+                                <li class="border rounded p-3 m-2">Photographie et Vidéo</li>
+                                <li class="border rounded p-3 m-2">Adobe PremierePro</li>
+                                <li class="border rounded p-3 m-2">DaVinci Resolve</li>
+                                <li class="border rounded p-3 m-2">Sony Vegas Pro</li>
+                            </ul>
+                        </div>
+                        <!-- Projet(s) lié(s) -->
+                        <div class="d-flex flex-row flex-wrap">
+                            <div class="card border m-2 p-2" style="width: 18rem;">
+                                <img src="../media/insta.PNG" class="card-img-top rounded" alt="confiz">
+                                <div class="card-body">
+                                    <h5 class="card-title">Compte Instagram</h5>
+                                    <p class="card-text m-0">Je publie régulièrement des photos prisent avec mon téléphone ou un reflex sur mon compte instagram</p>
+                                    <p class="mb-1 italic">Photographie</p>
+                                    <a target="_blank" href="https://www.instagram.com/andrea.s_h/" class="btn btn-primary">Voir plus</a>
+                                </div>
+                            </div>
+                            <div class="card border m-2 p-2" style="width: 18rem;">
+                                <img src="../media/chocobalz.PNG" class="card-img-top rounded" alt="confiz">
+                                <div class="card-body">
+                                    <h5 class="card-title">Publicité</h5>
+                                    <p class="card-text m-0">Création d'une Publicité pour un article de mon choix, ici des céréales</p>
+                                    <p class="mb-1 italic">Vidéo, DaVinci Resolve</p>
+                                    <a target="_blank" href="https://youtu.be/TwI0qm0yWjA" class="btn btn-primary">Voir plus</a>
+                                </div>
+                            </div>
+                            <div class="card border m-2 p-2" style="width: 18rem;">
+                                <img src="../media/interview.PNG" class="card-img-top rounded" alt="confiz">
+                                <div class="card-body">
+                                    <h5 class="card-title">Interview</h5>
+                                    <p class="card-text m-0">Création d'une interview publicitaire pour une association</p>
+                                    <p class="mb-1 italic">Vidéo, DaVinci Resolve</p>
+                                    <a target="_blank" href="https://youtu.be/Fso4t25L8Ak" class="btn btn-primary">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <!-- Design -->
+                            <h2 class="mt-5">Design</h2>
+                            <ul class="list-unstyled d-flex flex-wrap">
+                                <li class="border rounded p-3 m-2">Suite Adobe</li>
+                                <li class="border rounded p-3 m-2">Suite Affinity</li>
+                                <li class="border rounded p-3 m-2">Figma</li>
+                                <li class="border rounded p-3 m-2">Canva</li>
+                            </ul>
+                        </div>
+                        <!-- Projet(s) Lié(s) -->
+                        <div class="d-flex flex-row flex-wrap">
+                            <div class="card border m-2 p-2" style="width: 18rem;">
+                                <img src="../media/cellug.PNG" class="card-img-top rounded" alt="confiz">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cellug</h5>
+                                    <p class="card-text m-0">Création d'un logo pour une entreprise fictive</p>
+                                    <p class="mb-1 italic">Affinity Designer</p>
+                                    <a target="_blank" href="../media/cellug.pdf" class="btn btn-primary">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="separate mb-5 d-none d-xxl-block"><p>_</p></div>
+
+                <!-- Autres Compétences -->
+                <div class="container-fluid d-flex flex-column col-12 col-xxl-4">
+                    <h3 class="mb-5 text-center underline">Autres Compétences</h3>
+                    <article class="p-5">
+                        <div>
+                            <!-- Téléphonie -->
+                            <h2 class="mt-5">Téléphonie</h2>
+                        </div>
+                        <div>
+                            <!-- Systèmes -->
+                            <h2 class="mt-5">Systèmes</h2>
+                            <ul class="list-unstyled d-flex flex-wrap">
+                                <li class="border rounded p-3 m-2">Administration d'un système Linux</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <!-- Sécurité -->
+                            <h2 class="mt-5">Sécurité</h2>
+                        </div>
+                        <!-- Projet(s) lié(s) -->
+                        <div class="d-flex flex-row flex-wrap">
+                            <div class="card border m-2 p-2" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mooc ANSSI</h5>
+                                    <a target="_blank" href="../media/anssi.pdf" class="btn btn-primary">Voir le cerficat</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <!-- Télécommunications -->
+                            <h2 class="mt-5">Télécommunications</h2>
+                            <ul class="list-unstyled d-flex flex-wrap">
+                                <li class="border rounded p-3 m-2">Fibre Optique</li>
+                                <li class="border rounded p-3 m-2">ADSL</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <!-- Anglais -->
+                            <h2 class="mt-5">Anglais</h2>
+                            <ul class="list-unstyled d-flex flex-wrap">
+                                <li class="border rounded p-3 m-2">Niveau moyen B1</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer avec de quoi me contacter-->
+        <footer class="p-2">
+            <ul>
+                <li class="m-3 d-flex list-unstyled flex-wrap flex-row justify-content-around">
+                    <ul class="d-flex list-unstyled">
+                        <li>
+                            <svg class="me-5 bi bi-telephone-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                            </svg>
+                        </li>
+                        <li><p>06 33 57 30 99</p></li>
+                    </ul>
+                    <ul class="d-flex list-unstyled">
+                        <li>
+                            <svg class="me-5 bi bi-envelope-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                            </svg>
+                        </li>
+                        <li><p>havardandrea3@gmail.com</p></li>
+                    </ul>
+                    <ul class="d-flex list-unstyled">
+                        <li>
+                            <svg class="me-5 bi bi-linkedin" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                            </svg>
+                        </li>
+                        <li><p>@AndreaHAVARD</p></li>
+                    </ul>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
